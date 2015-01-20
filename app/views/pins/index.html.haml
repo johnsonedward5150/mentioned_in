@@ -1,8 +1,7 @@
 #pins.transitions-enabled
 	- @pins.each do |pin|
-		.box.panel.panel-default
+		.box
 			= link_to (image_tag pin.image.url), pin
-			%h2= link_to pin.title, pin
-			%p.user
-				Submitted by
-				= pin.user.email
+			
+			
+<iframe src="http://localhost:3000/mention/mention_index" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="500px" width="100%"></iframe>			

@@ -30,7 +30,7 @@ nav {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	.navbar-brand {
 		a {
-			color: #BD1E23;
+			color: #3366FF;
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
@@ -39,18 +39,22 @@ nav {
 	}
 }
 
+
 #pins {
   margin: 0 auto;
   width: 100%;
   .box {
 	  margin: 10px;
-	  width: 350px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 7px;
+	  padding: 10px;
+	  height: 55px;
+	  /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	  border-radius: 7px;*/
 	  text-align: center;
+	  
+	  
 	  img {
-	  	max-width: 100%;
-	  	height: auto;
+	  	max-height: 100%;
+	  	width: auto;
 	  }
 	  h2 {
 	  	font-size: 22px;

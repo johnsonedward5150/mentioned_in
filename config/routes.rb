@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'mention/mention_index'
+
   devise_for :users
   resources :pins do
   	member do
@@ -7,4 +9,5 @@ Rails.application.routes.draw do
   end
 
   root "pins#index"
+
 end
